@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+div{
+    width:100px;
+    height: 100px;
+    position: absolute;
+    }
+
+.yellow{
+    background-color: yellow;
+    left:50px;
+    top:50px;
+    
+}
+
+.black{
+    background-color: black;
+    left:80px;
+    top:80px;
+    z-index: -1;
+}
+
+.red{
+    background-color:red;
+    z-index: 1;
+}
+
+
+</style>
+
+
+
+
+</head>
+
+<body>
+    <div class="red">
+        red
+    </div>
+    <div class="yellow">
+        yellow
+    </div>
+
+    <div class="black">
+        black
+    </div>
+</body>
+</html>
